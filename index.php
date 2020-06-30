@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$app = new \atk4\ui\App('Welcome to Party Time');
+$app = new \atk4\ui\App('Party Time Again ');
 $app->initLayout('Centered');
 
 
@@ -14,7 +14,7 @@ $app->initLayout('Centered');
 
 
 $app->add('Text')
-    ->addParagraph('You have successfully installed Agile Toolkit '.$app->version)
+    ->addParagraph('You have successfully installed Party Time '.$app->version)
     ->addParagraph('Open index.php file in your text editor and follow documentation.');
 
 $app->add(['Button', 'icon'=>'dashboard'])
