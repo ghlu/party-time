@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$app = new \atk4\ui\App('Welcome to Party Time ');
+$app = new \atk4\ui\App('Welcome to Party Time 2 ');
 $app->initLayout('Centered');
 
 
